@@ -1,0 +1,66 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f2f9ff;
+  color: #222;
+}
+header {
+  background: #2196f3;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.logo {
+  height: 40px;
+  vertical-align: middle;
+}
+.banner img {
+  width: 100%;
+}
+.games {
+  padding: 20px;
+}
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.game-card {
+  display: block;
+  width: 30%;
+  text-align: center;
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.game-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.form-container {
+  padding: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input, select, button {
+  padding: 10px;
+  font-size: 16px;
+}
+button {
+  background: #2196f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.back {
+  display: block;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Up Mobile Legends - RPStore.id</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="back">&larr; Kembali</a>
+    <h1>Top Up Mobile Legends</h1>
+  </header>
+  <section class="form-container">
+    <form id="topupForm">
+      <label>ID:</label>
+      <input type="text" id="userId" required placeholder="Masukkan ID">
+      <label>Server:</label>
+      <input type="text" id="serverId" required placeholder="Masukkan Server">
+      <label>Jumlah:</label>
+      <select id="amount">
+        <option value="10">10 Diamond</option>
+        <option value="50">50 Diamond</option>
+        <option value="100">100 Diamond</option>
+      </select>
+      <label>Metode Pembayaran:</label>
+      <select id="payment">
+        <option>QRIS</option>
+        <option>DANA</option>
+        <option>OVO</option>
+        <option>Gopay</option>
+        <option>SeaBank</option>
+      </select>
+      <button type="submit">Pesan Sekarang!</button>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
